@@ -1,12 +1,13 @@
-FROM node:8.15.0-slim
+FROM node:12-slim
 
-RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
-COPY package.json /usr/src/app/
-RUN npm install --production
-COPY . /usr/src/app
+COPY . .
+
+RUN npm install
+RUN npm run build:ci
 
 EXPOSE 9000
+ENV OPENSHIFT_NODEJS_PORT 9000
 
 CMD npm run start

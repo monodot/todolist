@@ -67,8 +67,7 @@ export default {
 .todo-header {
   border-radius: 0px;
   // border-radius: 6px 6px 0 0;
-  background: url($header_image) no-repeat;
-  background-size: cover;
+  background: #577590;
   padding: 55px 20px;
   position: relative;
   .overlay {

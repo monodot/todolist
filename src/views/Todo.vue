@@ -14,8 +14,8 @@
       <div class="image-footer">
         <img
           class="image-footer-logo"
-          src="@/assets/RHOIL_LogoBadge_RGB_Default.png"
-          alt="Open Innovation Labs logo"
+          src="@/assets/picard.webp"
+          alt="Captain Jean-Luc Picard"
         />
       </div>
     </md-card>

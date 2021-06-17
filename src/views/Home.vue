@@ -1,23 +1,22 @@
 <template>
   <div class="home">
     <img
-      class="banner-image"
-      src="@/assets/RHOIL_LogoBadge_RGB_Default.png"
+      class="home-image"
+      src="@/assets/picard.webp"
       width="330px"
     />
-    <h1>Welcome 👋</h1>
-    <AboutLabs />
+    <h1>Jean-Luc Picard's Todo List 👋</h1>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import AboutLabs from "@/components/AboutLabs.vue";
+// import AboutLabs from "@/components/AboutLabs.vue";
 
 export default {
   name: "home",
   components: {
-    AboutLabs
+    // AboutLabs
   }
 };
 </script>
